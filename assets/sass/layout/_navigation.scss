@@ -1,0 +1,39 @@
+nav {
+    width: 100%;
+    height: 72px;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+
+    .burger {
+        position: relative;
+        display: inline-block;
+
+        .burger_1 {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        .burger:hover .burger_1{
+            display: block;
+        }
+    }
+
+    i {
+        cursor: pointer;
+        margin-left: 20px;
+        font-size: 30px;
+        color: white;
+        margin-right: 30px;
+    }
+
+    img {
+        height: 40px;
+        cursor: pointer;
+    }
+}

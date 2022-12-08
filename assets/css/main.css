@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer .LOGO_DIV img {
+  width: 300px;
+  margin-top: 20px;
+}
+footer button {
+  background-color: red;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+footer p {
+  color: white;
+}
+footer .son_hisse {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+footer .son_hisse button {
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: coral;
+}
+footer .son_hisse .son_noqte {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+footer .son_hisse .son_noqte ul {
+  display: flex;
+  flex-direction: row;
+}
+footer .son_hisse .son_noqte ul a {
+  margin-left: 40px;
+  margin-bottom: 20px;
+  color: white;
+  cursor: pointer;
+}
+footer .son_hisse .laaaast {
+  margin-right: 70px;
+  margin-bottom: 20px;
+}
+
+nav {
+  width: 100%;
+  height: 72px;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+nav .burger {
+  position: relative;
+  display: inline-block;
+}
+nav .burger .burger_1 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+nav .burger .burger:hover .burger_1 {
+  display: block;
+}
+nav i {
+  cursor: pointer;
+  margin-left: 20px;
+  font-size: 30px;
+  color: white;
+  margin-right: 30px;
+}
+nav img {
+  height: 40px;
+  cursor: pointer;
+}
+
+.sec1 .cocacolastic {
+  background: url("/assets/imgs/new-coca-cola-slogan-section-homepage-desktop-1600.jpg");
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.sec1 .about {
+  display: flex;
+  flex-direction: row;
+  position: -webkit-sticky;
+  position: sticky;
+}
+.sec1 .about .left {
+  overflow: hidden;
+}
+.sec1 .about .imigi {
+  height: 100%;
+}
+.sec1 .about .imigi:hover {
+  transition: 5s;
+  transform: scale(1.2);
+}
+.sec1 .right {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  overflow: hidden;
+}
+.sec1 .right .imigi1 {
+  width: 100%;
+  height: 50%;
+}
+.sec1 .right .imigi1:hover {
+  transition: 5s;
+  transform: scale(1.2);
+}
+.sec1 .right .imigi2 {
+  width: 100%;
+  height: 50%;
+}
+.sec1 .right .imigi2:hover {
+  transition: 5s;
+  transform: scale(1.2);
+}
+
+.three_card {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  overflow: hidden;
+  position: -webkit-sticky;
+  position: sticky;
+}
+.three_card .sekil {
+  width: 33.33%;
+}
+.three_card .sekil:hover {
+  transition: 5s;
+  transform: scale(1.2);
+}
+
+.aboutt {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.aboutt .alll {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+  flex-direction: column;
+}
+.aboutt .alll .search {
+  display: flex;
+  flex-direction: row;
+}
+.aboutt .alll .search .parah {
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 24px;
+  cursor: pointer;
+}
+.aboutt .alll .search .parah:hover {
+  color: red;
+  font-size: 24px;
+  text-decoration: underline;
+  -webkit-text-decoration-color: red;
+          text-decoration-color: red;
+}
+.aboutt .sosiallar {
+  margin-top: 50px;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,113 @@
+.sec1 {
+    .cocacolastic {
+        background: url("/assets/imgs/new-coca-cola-slogan-section-homepage-desktop-1600.jpg");
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: row;
+        position: sticky;
+
+        .left {
+            overflow: hidden;
+        }
+
+        .imigi {
+            height: 100%;
+        }
+
+        .imigi:hover {
+            transition: 5s;
+            transform: scale(1.2);
+        }
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        overflow: hidden;
+
+        .imigi1 {
+            width: 100%;
+            height: 50%;
+        }
+
+        .imigi1:hover {
+            transition: 5s;
+            transform: scale(1.2);
+
+        }
+
+        .imigi2 {
+            width: 100%;
+            height: 50%;
+        }
+
+        .imigi2:hover {
+            transition: 5s;
+            transform: scale(1.2);
+        }
+    }
+}
+
+.three_card {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow: hidden;
+    position: sticky;
+
+    .sekil {
+        width: 33.33%;
+    }
+
+    .sekil:hover {
+        transition: 5s;
+        transform: scale(1.2);
+    }
+}
+
+.aboutt {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .alll {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 70px;
+        flex-direction: column;
+
+        .search {
+            display: flex;
+            flex-direction: row;
+
+            .parah {
+                margin-left: 40px;
+                margin-right: 40px;
+                font-size: 24px;
+                cursor: pointer;
+            }
+            .parah:hover{
+                color: red;
+                font-size: 24px;
+                text-decoration: underline;
+                text-decoration-color: red;
+            }
+        }
+    }
+    .sosiallar{
+        margin-top: 50px;
+    }
+}
